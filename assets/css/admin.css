@@ -1,0 +1,133 @@
+/**
+ * File: admin.css
+ * Description: Admin interface styles
+ * Version: 1.0.0
+ */
+
+/* Admin Wrapper */
+.paf-admin-wrap {
+    margin: 20px 20px 20px 0;
+}
+
+.paf-tab-wrapper {
+    margin-bottom: 0;
+}
+
+.paf-tab-content {
+    background: white;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+    padding: 20px;
+}
+
+/* Settings Form */
+.paf-settings-form table.form-table th {
+    width: 220px;
+}
+
+/* Shortcode Reference */
+.paf-shortcode-reference {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #ddd;
+}
+
+.paf-shortcode-reference h2,
+.paf-shortcode-reference h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paf-shortcode-reference code {
+    background: #f0f0f1;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-family: Consolas, Monaco, monospace;
+    color: #CC0000;
+}
+
+/* Cache Management */
+.paf-cache-management {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #ddd;
+}
+
+#cache-clear-result,
+#api-test-result {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Error Log */
+.paf-api-log .tablenav {
+    margin-bottom: 15px;
+}
+
+.paf-error-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.paf-error-badge.paf-error-connection {
+    background: #fef2f2;
+    color: #991b1b;
+}
+
+.paf-error-badge.paf-error-response {
+    background: #fffbeb;
+    color: #92400e;
+}
+
+.paf-error-badge.paf-error-timeout {
+    background: #fef3c7;
+    color: #78350f;
+}
+
+.paf-error-badge.paf-error-rate_limit {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.paf-error-badge.paf-error-auth {
+    background: #fecaca;
+    color: #7f1d1d;
+}
+
+.paf-error-badge.paf-error-not_found {
+    background: #f3f4f6;
+    color: #374151;
+}
+
+/* Help Page */
+.paf-help-page {
+    max-width: 800px;
+}
+
+.paf-help-section {
+    margin-bottom: 30px;
+}
+
+.paf-help-section h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paf-help-section h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.paf-help-section ul,
+.paf-help-section ol {
+    line-height: 1.8;
+    margin-left: 20px;
+}

@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  <g transform="translate(200, 150)">
+    <!-- Simple pet paw icon -->
+    <circle cx="0" cy="0" r="20" fill="#9ca3af"/>
+    <circle cx="-15" cy="-25" r="12" fill="#9ca3af"/>
+    <circle cx="15" cy="-25" r="12" fill="#9ca3af"/>
+    <circle cx="-25" cy="-10" r="12" fill="#9ca3af"/>
+    <circle cx="25" cy="-10" r="12" fill="#9ca3af"/>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">
+    No Image Available
+  </text>
+</svg>
